@@ -8,6 +8,8 @@ solutions to puzzles in Vim Adventures
 - My solutions may not be the only way, and may not even be the optimal way to solve the puzzles.
 - I strongly suggest you attempt all levels on your own before turning to the following spoilers.
 
+---
+
 ### Levels
 #### Level 8
 - last puzzle: 
@@ -51,7 +53,7 @@ solutions to puzzles in Vim Adventures
    - `l h` to exit and re-enter puzzle from right side
    - `b Fa` to end on the 'a' above the locked gate
    - go down, unlock gate, and go to next puzzle
-- puzzle
+- deleting puzzle
    - go to start of 'not so ' → `d2w`
    - delete next bit with `3x`
    - go to start of '(C) Writes serverd ''s' → `d3W x`
