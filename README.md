@@ -47,5 +47,20 @@ solutions to puzzles in Vim Adventures
    - and back to the start of the puzzle with `3h`
    - go down to previous puzzle on 'k'
 - puzzle below Pi puzzle (4 key presses)
-   - start on 'k' of 'keep', `3$  Fa`, end on 'a' above locked gate - NOT CORRECT
+   - start on 'k' of 'keep', `3$` to get to '.' on right side
+   - `l h` to exit and re-enter puzzle from right side
+   - `b Fa` to end on the 'a' above the locked gate
+   - go down, unlock gate, and go to next puzzle
+- puzzle
+   - go to start of 'not so ' → `d2w`
+   - delete next bit with `3x`
+   - go to start of '(C) Writes serverd ''s' → `d3W x`
+   - go to start of 'XOOOO XOOOOO O' → `d2fX`
+   - go to start of 'word1 w2 word1 w2 ''1' → `d4W x`
+   - go to start of `bye bye` → `d2fe`
+   - grab the new key (have 3 keys again)
+   - go down and use all keys to open three locked gates to end of level
+
+#### Level 10
+- 
 
