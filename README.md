@@ -8,9 +8,9 @@ solutions to puzzles in Vim Adventures
 
 ### Levels
 #### Level 8
-- last puzzle →  # E # n n ^ k $ * j
+- last puzzle: `# E # n n ^ k $ * j`
 
 #### Level 9
-- puzzle to the right 
-   - start on 'N' →  $ j j j  → end on 'd', get key
-   - to go back, start on 'd' →  gg
+- puzzle to the right: 
+   - start on 'N' `$ j j j  → end on 'd'`, get key
+   - to go back, start on 'd' `gg`
