@@ -12,5 +12,5 @@ solutions to puzzles in Vim Adventures
 
 #### Level 9
 - puzzle to the right: 
-   - start on 'N' `$ j j j  → end on 'd'`, get key
+   - start on 'N' `$ j j j` end on 'd', get key
    - to go back, start on 'd' `gg`
