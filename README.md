@@ -55,7 +55,7 @@ solutions to puzzles in Vim Adventures
    - go down, unlock gate, and go to next puzzle
 - deleting puzzle
    - go to start of 'not so ' → `d2w`
-   - delete next bit with `3x`
+   - go to start of 'e22' → `3x`
    - go to start of '(C) Writes serverd ''s' → `d3W x`
    - go to start of 'XOOOO XOOOOO O' → `d2fX`
    - go to start of 'word1 w2 word1 w2 ''1' → `d4W x`
@@ -64,5 +64,70 @@ solutions to puzzles in Vim Adventures
    - go down and use all keys to open three locked gates to end of level
 
 #### Level 10
-- 
+- paste puzzle
+   - go down and grab the 'p' command
+   - delete a word with the red box around it, starting with cursor on first letter of that word
+      - 'you' → `dw`
+      - 'delet' → `5x`
+      - 'real' → `4x`
+   - paste those deleted words from the buffer, to where the corresponding purple bubbles show
+      - 'P' for pasting before cursor, 'p' for pasting after cursor
+   - grab the key after you pasted the correct word for each purple bubble
+   - move to the 't' and use `x` to save it to the register for the next puzzle
+   - go down and open locked gate
+   - go to the right
+- t puzzle
+   - paste that 't' using `p` in all the spots that it indicates
+   - go left and down to the line delete puzzle below the house
+- line delete puzzle below house (7 key presses)
+   - start on 'd' of 'round', `j  dj  k  P  G  p`
+   - grab the '"' register specification
+   - go up to the house and save the 't' character into another register (such as "a) `"ax`
+   - go down, right, and up to the 't and x puzzle' above the 't puzzle'
+- t and x puzzle (7 key presses)
+   - start and red boxed 'x'
+   - `"x  gg  $  "ap` (the `"ap` pastes from the "a register, if that is where you saved 't' to)
+   - a key has appeared, `3j  2Fl` to get it
+   - go down, right, and down to the 'tweedle beetle puzzle'
+- tweedle beetle puzzle (98 key presses)
+   - start on 3rd 'e' of 'beetles' → `G  3j  b  "bdw  b  "adw  b  "Bde  j  "Adw  "Ade  k  "aP  G  "bP`
+   - a small brown key appears, grab it
+   - go back to the house at the beginning and use the small brown key on the chest
+   - the chest gives you the 'y' yank operator
+   - go back to the 'tweedle beetle puzzle' and head down to the 'one ring puzzle'
+- one ring puzzle
+   - go to start of 'One ring to ' → `3yw` to yank the text
+   - paste where the two purple bubbles tell you to, using 'p' or 'P'
+   - key appears, grab it (now you have 2)
+   - go down to 'Hip, Hip, Hooray! puzzle'
+- Hip, Hip, Hooray! puzzle
+   - delete the two red boxed lines using `dd` on each
+   - move to the 'Hip, Hip, Hooray!' line and yank it using `yy`
+   - paste it where the purple bubbles are → `2P  3j  3p`
+   - key appears, grab it (you now have 3)
+   - go all the way back to the house at the beginning, and go down to the 'Delete me! puzzle'
+- Delete me! puzzle (7 key presses)
+   - start on 't' of 'Delete' → `G  dd  dd  dd`
+   - go down to '99 bottles puzzle'
+- 99 bottles puzzle (15 key presses)
+   - check `:reg` to see which registers you will need to use for pasting the text from
+   - start on 'h' of 'the' → `"0P  j  "0p  j  p  j  "2p`
+   - go down to next, and last puzzle
+- last puzzle
+   - check `:reg` to see which text you have saved to registers
+   - you need the following lines of text saved to registers:
+      - 'Betty rules'
+      - 'tweedle beetle'
+      - 'on the wall'
+      - 'One Ring'
+   - go back to the previous puzzles and save each to a different register using yank
+      - I saved each, in order, from registers a-d, starting on the first character of each phrase:
+         - 'Betty rules' → `"ayw` for 'betty ' + `"Aye` for 'rule' + `"Ay$` for 's' (on the last 's' of 'darkness', because it was the last character on the line)
+         - 'tweedle beetle' → `"b2ye` for 'tweedle beetle'
+         - 'on the wall' → `"c3ye` for 'on the wall'
+         - 'One Ring' → `"d2ye` for 'One Ring'
+   - go back to this puzzle and past the phrases in the right spot, using the right registers
+      - for me, starting on the first space → `"aP  6l  "bP  l  "cp  $  "dp`
+   - a new island appears, follow the path left and up and unlock the 3 gates to the end of the level
 
+#### Level 11
