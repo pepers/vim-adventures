@@ -13,11 +13,11 @@ solutions to puzzles in Vim Adventures
 ### Levels
 #### Level 8
 - last puzzle: 
-   - start on first twin brother, `j # E # n n ^ k $ * j j`, end on second brother
+   - start on first twin brother, `j  #  E  #  n  n  ^  k  $  *  j  j`, end on second brother
 
 #### Level 9
 - puzzle to the right: 
-   - start on 'N' `$ j j j` end on 'd', get key
+   - start on 'N' `$  j  j  j` end on 'd', get key
    - to go back, start on 'd' `gg`
 - use key to enter house and get ability to use all numbers
 - puzzle below the house (with 11 key presses):
@@ -122,7 +122,7 @@ solutions to puzzles in Vim Adventures
       - 'One Ring'
    - go back to the previous puzzles and save each to a different register using yank
       - I saved each, in order, from registers a-d, starting on the first character of each phrase:
-         - 'Betty rules' → `"ayw` for 'betty ' + `"Aye` for 'rule' + `"Ay$` for 's' (on the last 's' of 'darkness', because it was the last character on the line)
+         - 'Betty rules' → `"ayw` for 'Betty ' + `"Aye` for 'rule' + `"Ay$` for 's' (on the last 's' of 'darkness', because it was the last character on the line)
          - 'tweedle beetle' → `"b2ye` for 'tweedle beetle'
          - 'on the wall' → `"c3ye` for 'on the wall'
          - 'One Ring' → `"d2ye` for 'One Ring'
@@ -131,3 +131,96 @@ solutions to puzzles in Vim Adventures
    - a new island appears, follow the path left and up and unlock the 3 gates to the end of the level
 
 #### Level 11
+- go down to miracle puzzle
+- miracle puzzle (15 key presses)
+   - yank 'you' with `ye`
+   - leave puzzle and re-enter on 'r' of 'rush' → `P  b  ~  3w  yw  j  w  P  rs`
+   - grab 'c' change operator
+   - go down to change puzzle
+- change puzzle (44 key presses)
+   - start on 'C' of 'Ctrl+1,' → `3CEsc<Esc>  j  CInsert mode<Esc>  G  w  cwreturn to<Esc>  2w  c2wmode<Esc>`
+   - go down to second change puzzle
+- second change puzzle
+   - edit each of the following red boxes, starting on the first letter of each box:
+      - 'terrible ' → `dw`
+      - 'deleting' → `cwediting<Esc>`
+      - '!' → `r?`
+      - 'ctrl' → `cwBackspace<Esc>`
+      - 'Shift' → `cwDelete<Esc>`
+      - last line → `ccto fix it.<Esc>`
+   - grab the 's' substitute command
+   - go back to the start of the level (at the top) and go right to the Gandalf puzzle
+- Gandalf puzzle (8 key presses)
+   - start on 'G' of 'Grey.' → `* CWhite<Esc>`
+   - go right to another editing puzzle
+- editing puzzle
+   - edit each of the following red boxes, starting on the first letter of each box:
+      - 'i' → `x`
+      - 'it' → `2x`
+      - 'vegetarian dinosaurs,' → `Slocal fisherman,<Esc>`
+      - 'fl' → `2sn<Esc>`
+      - 'volcanic lava!' → `Swaters...<Esc>`
+   - `:ls` to view buffers, we are going to the ground → `:b1`
+   - go up to first ground puzzle
+- first ground puzzle
+   - edit each of the following red boxes, starting on the first letter of each box:
+      - 'hat' → `3x`
+      - 'p' → `rs`
+      - 'i' → `swa<Esc>`
+      - 'cookies' → `cwchocolates<Esc>`
+      - 'always' → `cwnever`
+      - 't' → `rw`
+      - 'o nuts' → `c2wet<Esc>`
+   - grab the blue key
+   - go right, and down to second ground puzzle
+- second ground puzzle (20 key presses)
+   - start on the '8' → `w  s15<Esc>  w  cw16<Esc>  3l  x  w  4C42<Esc>`  
+   - grab the small brown key
+   - `:ls` to view buffers, we are going to the sky → `:b2`
+   - use blue key to open the blue door
+   - use the small brown key to open the chest, get the 'i' insert command
+   - go left to beginning of level, and then all the way down to the 'Watson puzzle'
+- Watson puzzle (6 key presses)
+   - `IElem<Esc>`
+   - go right to next sky insert puzzle
+- sky insert puzzle (33 key presses)
+   - start on 'Y' of 'You've' → `W  igot<space><Esc>  j  Iyourself<space><Esc>  G  iWell<Esc>  k  l  iI<space><Esc>`
+   - grab the 'a' append command
+   - `:ls` to view buffers, we are going to the ground → `:b1`
+   - go up to the Hakuna Matata puzzle
+- Hakuna Matata puzzle
+   - start on 'H' of 'Hakuna' → `Y  gg  P  j  p  6l  k  awonderful<Esc>  Ta  2j  ino<Esc>  h  2j  ano<Esc>  0  iIt<Esc>  h  2j  iIt<Esc>  $  aphilosophy<Esc>
+   - grab the blue key
+   - `:ls` to view buffers, we are going to the sky → `:b2`
+   - open blue door
+   - grab the 'o' open command
+   - go back all the way left and up a bit and left to the 'D'oh' puzzle
+- D'oh puzzle (4 key presses)
+   - `5A!<Esc>`
+   - go right to the big edit puzzle
+- big edit puzzle
+   - edit each of the following red boxes, starting on the first letter of each box:
+      - 'mally' → `ce instance,<Esc>`
+      - 'e' → `~`
+      - 'was far less smart' → `Swas more intelligent<Esc>`
+      - 'lousy' → `cwgood<Esc>`
+   - fill in what the purple bubbles tell you to, using `a` and `i` and `o`
+   - `:ls` to view buffers, we are going to the ground → `:b1`
+   - go up to 'beat it puzzle'
+- beat it puzzle (20 key presses)
+   - start on 'N' of 'No' → `4OBeat it<Esc>  gg  ~  IJust <Esc>`
+   - go down to puzzle below arrow island
+- puzzle below arrow island (33 key presses)
+   - start on first line → `OYou mean<Esc>  j  oall I had<Esc>  G  Oclick my<Esc>`
+   - go across the bridge to arrow island
+- arrow island 
+   - start at 'O' of 'Open' → `cw:e<Esc>  w  cWundeground<Esc>`
+   - grab the red key
+   - type `:e underground`
+   - open red gate, go down to underground puzzle
+- underground puzzle (20 key presses)
+   - start on 'o' of 'You' → `w  cwSHALL<Esc>  l  p  4l  cw!<Esc>  3h  p`
+   - talk to the princess to finish the level
+
+#### Level 12
+
