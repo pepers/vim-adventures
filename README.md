@@ -223,4 +223,56 @@ solutions to puzzles in Vim Adventures
    - talk to the princess to finish the level
 
 #### Level 12
-
+- puzzle with d, j, and 5W bugs
+   - kill the three bugs
+      - d → `dd` when it is in the same line as you
+      - j → `yj` when it is below you
+      - 5W → `d5W` when you are within 5 WORDS away
+   - get '( )' motions for navigating sentences
+- puzzle with gg, G, (, ), *, and # bugs
+   - kill the 6 bugs
+      - gg → `dgg` when it is anywhere above you
+      - G → `dG` when it is anywhere below you
+      - ( → `d(` when it is within the previous sentence
+      - ) → `d)` when it is within the next sentence
+      - * → `d*` when it is anywhere above you
+      - # → `d#` when it is anywhere above you
+   - get the '[{, [(, ]), and ]}' motions for finding unmatched braces and parenthesis
+- puzzle with t and ^ bugs
+   - kill the 2 bugs
+      - t → `dt!` when it is to the right of you on the bottom line of it's puzzle
+      - ^ → `d^` when it is to the left of you on same line
+   - get '{ }' motions for navigating paragraphs
+- puzzle with {, }, T, F, and $ bugs
+   - kill the 5 bugs
+      - } → `d}` when it is forward within the same paragraph as you, you move to end of paragraph
+      - { → `d{` when it is backward within the same paragraph as you
+      - T → `dTT` when you are on the top line of it's puzzle, and it is to your left
+      - F → get to right side of puzzle, and `dF<character bug is on>`
+      - $ → `d$` when it is to the right of the cursor, on the same line
+   - get small brown key
+   - go right and down to paragraph puzzle
+- paragraph puzzle
+   - start on '*' → `}` to jump paragraph to the space, and `}` again to kill the bug
+   - `2$  ]}` to kill the ']}' bug
+   - kill 3 and F bugs → `dFp` and `d3B` work nicely if you are on the end of the top line
+   - kill the k and l bugs → `dk` works if you are on the last '}', and `d<some number>l` 
+   - chest appears, open it to get 'ia' text objects
+   - back to beginning and down and to the left to numbered puzzle
+- numbered puzzle (8 key presses)
+   - `)` → `2)` → `(` → `2)` → `)`
+   - go down to '7' → `])`
+   - go down to next bug puzzle
+- bug puzzle
+   - kill bugs:
+      - 2[ → `d2[{`
+      - 3] → `d3]}`
+   - grab key
+   - go way back, up and right, and open door with new key
+   - go left to text object puzzle
+- text object puzzle
+   - kill bugs:
+      - a( → 
+      - i( →
+      - a[ →
+      - ap →
