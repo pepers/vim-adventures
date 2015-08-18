@@ -318,7 +318,7 @@ solutions to puzzles in Vim Adventures
    - grab the blue key
    - move down to the fizz buzz puzzle
 - fizz buzz puzzle (42 key presses)
-   - `$  cwBuzz<Etc>  6w  .  2b  cwFizz<Etc>  7b  .  4w  .  7w  .  3w  cwFizzBuzz<Etc>`
+   - `$  cwBuzz<Esc>  6w  .  2b  cwFizz<Esc>  7b  .  4w  .  7w  .  3w  cwFizzBuzz<Esc>`
    - go left to little indians puzzle
 - little indians puzzle (53 key presses)
    - 
