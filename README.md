@@ -272,7 +272,54 @@ solutions to puzzles in Vim Adventures
    - go left to text object puzzle
 - text object puzzle
    - kill bugs:
-      - a( → 
-      - i( →
-      - a[ →
-      - ap →
+      - a( → `da(` within a () block
+      - i( → `di(` within a () block
+      - a[ → `da[` within it's [] block
+      - ap → `dap`
+      - 2a} → `d2a}`
+      - a{ → `da{`
+   - change text, start at first character:
+      - '[0,1,2,3]' → `ca[endl<Esc>`
+      - '(i+3)/(j-23)' → `c2i(i+1)*(j+1)<Esc>`
+   - grab the red key
+   - go up and to the right to the hello world puzzle
+- hello word puzzle 
+   - kill bugs:
+      - a → from top `d3ap` will delete the bug because it is within the next three paragraphs
+      - ) → from top `d4)`
+      - i( → `G` to get to the bottom, then `4k` to get within the '( )' pair, then `di(`
+      - % → `d%`
+   - go back to top with `gg`, time to edit
+   - `W  2j  ci<head<Esc>  j  c2a[<script><Esc>  4j  ci{<Space><Space>alert('Hello World!');<Esc>`
+   - `G` to get the blue key
+   - go back to near the beginning, and open blue door
+   - go up to yoda puzzle
+- yoda puzzle
+   - kill bugs:
+      - three a" bugs → `gg` to top of text, `da"` on each line that a bug is on
+      - i" → `di"` on same line as bug
+   - edit text → `gg  ci"No!<Esc>  4G  ci'do not.<Esc>`
+   - grab the second red key
+   - go open the first red key gate on the right
+   - go down to right red gate puzzle
+- right red key puzzle
+   - use `i` and `a` to add in the words requested by the purple bubbles
+      - starting on 'I' of 'In' → `fh  3j  "ayl  3k  "Ayw  2j  P  k  p  b  j  b  j  P  3w  j  "cy2aw  5j  yiw  5w  P  3h  6j  "cp  3e  "cp`
+      - grab the '.' repeat command
+      - go back and open the left red door, and head down to the left red key puzzle
+- left red key puzzle
+   - kill bugs while standing at start of puzzle on 'r' of 'her':
+      - s → `das`
+      - i → `dis`
+   - edit text → `dap` while on 'r' of 'her'
+   - go down to function puzzle
+- function puzzle (23 key presses)
+   - start on 'u' of 'function' → `%  di(  B  2j  ciwisOver<Esc>  2j  .  3j  .`
+   - grab the blue key
+   - move down to the fizz buzz puzzle
+- fizz buzz puzzle (42 key presses)
+   - `$  cwBuzz<Etc>  6w  .  2b  cwFizz<Etc>  7b  .  4w  .  7w  .  3w  cwFizzBuzz<Etc>`
+   - go left to little indians puzzle
+- little indians puzzle (53 key presses)
+   - 
+
