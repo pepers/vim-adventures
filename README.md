@@ -326,5 +326,24 @@ solutions to puzzles in Vim Adventures
    - talk to princess to finish level, and move on to level 14 (not 13)
 
 #### Level 14
-- 
+- all motions are gone!
+- `yip` to get 'H' high motion
+- `H` and use `zb` to get the 'L' low motion
+- `L` and use `zt` repeatedly to scroll down and get the '1-9' counts back
+- `6L` to get the 'nu' and 'nonu' boolean options
+- `:set nu` to turn line numbers on
+- use a count + `H`, with the help of line numbers, to go up and get the 'M' middle motion
+- navigate to the bush on line 41 to uncover the '|' pipe motion
+- navigate to the start of line 43 → `10|` to get to the blinking white cursor (Mr. White)
+   - talk to Mr. White to learn about marks
+   - learn that we had a plan to kill Big Bug, before we lost our memory
+- navigate to line 4 → `55|` to get to Mr. Blue
+   - learn how to teleport to global marks (`` `<global mark name> ``, eg: `` `L ``)
+   - learn Mr. Pink couldn't control himself and almost changed colour (interesting), and that's why the plan to kill Big Bug failed
+- navigate to line 50 → `64|` to get to Mr. Pink
+   - learn how to list marks (`:marks`) and how to delete them (`:delm`)
+   - continue to not forgive Mr. Pink, until he loses his temper and turns into Mr. Red
+   - talk to Mr. Red to learn about Big Bug and how to destroy him (text in the sky tells where to place marks in the underground)
+- `:reg` to view the registers, and find out that the next directions are in the ground buffer
+- `:ls` to view buffers → `:b1` to go to ground
 
