@@ -321,5 +321,10 @@ solutions to puzzles in Vim Adventures
    - `$  cwBuzz<Esc>  6w  .  2b  cwFizz<Esc>  7b  .  4w  .  7w  .  3w  cwFizzBuzz<Esc>`
    - go left to little indians puzzle
 - little indians puzzle (53 key presses)
-   - 
+   - `6B  *  ciwIndians<Esc>  n  .  2n  .  n  3.  n  .  2n  .  n  c5iwIndian boy<Esc>  n  .  as<Esc>`
+   - go down, open blue gate
+   - talk to princess to finish level, and move on to level 14 (not 13)
+
+#### Level 14
+- 
 
