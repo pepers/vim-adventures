@@ -340,7 +340,7 @@ solutions to puzzles in Vim Adventures
    1. `:41<Enter>` to uncover the '|' pipe motion in the bush
    2. `:33<Enter>  39|` to get the '/ ?' search motion
    3. `:11<Enter>  47|` to get the '`' mark motion
-   4. `:52<Ether>  4?pro` which leads to the 'pro' on line 37, `78|` is the space right before the 'pro', which has a portal (we'll return to this later) 
+   4. `:52<Enter>  4?pro` which leads to the 'pro' on line 37, `68|` is the space right before the 'pro', which has a portal (we'll return to this later) 
 - `:43<Enter>  10|` to get to the blinking white cursor (Mr. White)
    - talk to Mr. White to learn about marks
    - learn that we had a plan to kill Big Bug, before we lost our memory
@@ -358,7 +358,7 @@ solutions to puzzles in Vim Adventures
    - `:2<Enter>  5|` to grab 'CTRL-R' redo command
    - go to H mark puzzle
 - H mark puzzle (13 key presses)
-   - `delm!  :4<Enter>  30|`
+   - `:delm!  :4<Enter>  30|`
    - `?'` to grab the single quote jump to mark line motion
    - go to the A mark puzzle by using `'A` (that is the single quote, not backtick)
 - A mark puzzle (7 key presses)
@@ -366,5 +366,39 @@ solutions to puzzles in Vim Adventures
    - `2/m<Enter>` to get the 'm' set mark command
    - go to the D mark puzzle
 - D mark puzzle (29 key presses)
-   - 
+   - `:delm<Space>Dthe<Enter>  2|  mo  ?<Space>o<Enter>  mM  ?<Enter>  my  ?<Enter>  me`
+   - `:7  7|` to grab the yellow star
+   - lets take that star to the yellow star portal that we found in the Lorem buffer:
+      - `:b4` to get to the Lorem buffer
+      - `:37  68|` to get to the star portal
+      - it teleports us to the B mark puzzle
+- B mark puzzle
+   - `mB  16|  mg  :2  mi  14|  mu`
+   - a chest appears on the x, but we don't have the key yet
+   - `:reg<Enter>` and notice the message on the "y register:
+      - go to `` `W `` and then go to `` `Y ``, but don't skip the scrolling
+      - we can see the hint 'Toadstool (Peach is also interesting...)'
+      - go to the P mark puzzle
+- P mark puzzle
+   - `:marks` to view the marks and their associated text
+   - remember our hint from the WY mark scrolling → Toadstool, Peach → lets view these words as marks:
+      - `:marks Toadstool<Enter>` → this shows the marks in alphabetical order, and reveals a message → The power of undo will beat Big Bug
+      - the brown key is also revealed, get it with `:5<Enter>`
+      - `:marks Peach<Enter>` → also reveals a message → The cursors are NOT friends!
+      - lets go back to the B mark and open the brown chest → `` `B  9|`` to get the 'u' command
+      - all previous motions and commands are now restored!
+      - go to the U mark puzzle
+- U mark puzzle 
+   - `CTRL-R` → the words 'Uganda', 'Bram', and 'Charity' are to remember
+   - `:ls` to view buffers → `:b3` to go to underground buffer and start the underground mark puzzle
+- underground mark puzzle
+   - `:9<Enter>  mB` to set B mark, `31|  mg to set g mark`
+   - `:2  mi` to set i mark
+   - `:17  mu` to set u mark
+   - time to fight Big Bug and his three minions (formerly cursors)!
+- Big Bug fight
+   - search for 'Uganda', 'Bram', and 'Charity' to kill the smaller bugs (those are their hidden names)
+      - eg: `?Uganda<Enter>`
+      - when you kill one, it won't come back, so keep going back to the underground buffer until you kill all three, then focus on Big Bug
+   
 
