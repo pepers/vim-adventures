@@ -327,17 +327,20 @@ solutions to puzzles in Vim Adventures
 
 #### Level 14
 - all motions are gone!
-- `:reg` to view the registers, and find out that the next directions are in the ground buffer
-- `:ls` to view buffers → `:b1` to go to ground to view hints for the lorem buffer
-- `:ls` to view buffers → `:b4` to go back to the lorem buffer
 - `yip` to get 'H' high motion
 - `H` and use `zb` to get the 'L' low motion
 - `L` and use `zt` repeatedly to scroll down and get the '1-9' counts back
 - `:47<Enter>  6L` to get the 'nu' and 'nonu' boolean options
 - `:set nu` to turn line numbers on
 - use a count + `H`, with the help of line numbers, to go up and get the 'M' middle motion
-- `:41<Enter>` to uncover the '|' pipe motion in the bush
-- `:11<Enter>  47|` to get the '`' mark motion
+- `:reg` to view the registers, and find out that the next directions are in the ground buffer
+   - `:ls` to view buffers → `:b1` to go to ground to view hints for the lorem buffer
+   - `:ls` to view buffers → `:b4` to go back to the lorem buffer
+- hints from ground buffer, for lorem buffer, lead to:
+   1. `:41<Enter>` to uncover the '|' pipe motion in the bush
+   2. `:33<Enter>  39|` to get the '/ ?' search motion
+   3. `:11<Enter>  47|` to get the '`' mark motion
+   4. `:52<Ether>  4?pro` which leads to the 'pro' on line 37, `78|` is the space right before the 'pro', which has a portal (we'll return to this later) 
 - `:43<Enter>  10|` to get to the blinking white cursor (Mr. White)
    - talk to Mr. White to learn about marks
    - learn that we had a plan to kill Big Bug, before we lost our memory
@@ -348,5 +351,20 @@ solutions to puzzles in Vim Adventures
    - learn how to list marks (`:marks`) and how to delete them (`:delm`)
    - continue to not forgive Mr. Pink, until he loses his temper and turns into Mr. Red
    - talk to Mr. Red to learn about Big Bug and how to destroy him (text in the sky tells where to place marks in the underground)
-- 
+- `:ls` to view buffers → `:b2` to go to sky buffer
+- `` `W `` to go to the W mark puzzle
+- W mark puzzle
+   - `:4<Enter>  13|  d18aw` → `:1<Enter>  9|  d/clever<Enter>`
+   - `:2<Enter>  5|` to grab 'CTRL-R' redo command
+   - go to H mark puzzle
+- H mark puzzle (13 key presses)
+   - `delm!  :4<Enter>  30|`
+   - `?'` to grab the single quote jump to mark line motion
+   - go to the A mark puzzle by using `'A` (that is the single quote, not backtick)
+- A mark puzzle (7 key presses)
+   - `d'A` to kill bugs on top line, and `.` to repeat command → kill all bugs
+   - `2/m<Enter>` to get the 'm' set mark command
+   - go to the D mark puzzle
+- D mark puzzle (29 key presses)
+   - 
 
