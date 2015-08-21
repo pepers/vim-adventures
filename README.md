@@ -403,6 +403,8 @@ solutions to puzzles in Vim Adventures
    - to hurt Big Bug you must use undo (`u`) and redo (`CTRL-R`), which will cause a ligtning strike
       - type `99u` and `99<CTRL-R>` to do lots of damage at once
       - if you die, Big Bug regains health, so you must be quick and use motions like `gg`, `G`, `0`, and `$` to dodge around
-      
+      - take Big Bug's health to zero, and he will die
+   - Congratulations!  `<CTRL-R>` repeatedly to redo all the changes, and then the final cutscene will happen
+- THE END!
    
 
