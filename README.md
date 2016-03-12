@@ -373,7 +373,7 @@ solutions to puzzles in Vim Adventures
       - `:37  68|` to get to the star portal
       - it teleports us to the B mark puzzle
 - B mark puzzle
-   - `mB  16|  mg  :2  mi  14|  mu`
+   - `mB  16|  mg  :2  mi  :14  mu`
    - a chest appears on the x, but we don't have the key yet
    - `:reg<Enter>` and notice the message on the "y register:
       - go to `` `W `` and then go to `` `Y ``, but don't skip the scrolling
