@@ -398,7 +398,10 @@ solutions to puzzles in Vim Adventures
    - time to fight Big Bug and his three minions (formerly cursors)!
 - Big Bug fight
    - search for 'Uganda', 'Bram', and 'Charity' to kill the smaller bugs (those are their hidden names)
-      - eg: `?Uganda<Enter>` or `/Uganda<Enter>`  (repeating the search with `n` didn't seem to work for me, you have to be fast actually type in the search in the underground buffer)
+      - eg: `?Uganda<Enter>` or `/Uganda<Enter>`  
+	 - You can repeat searches in the underground buffer with /<Enter> and ?<Enter>
+	 - Big bug moves fast so using repeated searches is very helpful.
+	 - Moving between the corners with gg and G$ will give you the most time to run the search commands before big bug gets to you. 
       - when you kill one, it won't come back, so keep going back to the underground buffer until you kill all three, then focus on Big Bug
    - to hurt Big Bug you must use undo (`u`) and redo (`CTRL-R`), which will cause a ligtning strike
       - type `99u` and `99<CTRL-R>` to do lots of damage at once
