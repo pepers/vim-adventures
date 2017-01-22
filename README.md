@@ -403,9 +403,11 @@ solutions to puzzles in Vim Adventures
       - big bug moves fast so using repeated searches is very helpful
       - moving between the corners with gg and G$ will give you the most time to run the search commands before big bug gets to you 
       - when you kill one, it won't come back, so keep going back to the underground buffer until you kill all three, then focus on Big Bug
-   - to hurt Big Bug you must use undo (`u`) and redo (`CTRL-R`), which will cause a ligtning strike
+   - to hurt Big Bug you must use undo (`u`) and redo (`CTRL-R`), which will cause a lightning strike where edits were made
       - type `99u` and `99<CTRL-R>` to do lots of damage at once
       - if you die, Big Bug regains health, so you must be quick and use motions like `gg`, `G`, `0`, and `$` to dodge around
+      - you can spam `{` and `}` to go from corner to corner
+      - this will force him to cross edited text when he scrapes along the top and bottom of the screen for easy damage
       - take Big Bug's health to zero, and he will die
    - Congratulations!  `<CTRL-R>` repeatedly to redo all the changes, and then the final cutscene will happen
 - THE END!
