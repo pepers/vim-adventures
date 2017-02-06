@@ -362,7 +362,7 @@ solutions to puzzles in Vim Adventures
    - `?'` to grab the single quote jump to mark line motion
    - go to the A mark puzzle by using `'A` (that is the single quote, not backtick)
 - A mark puzzle (7 key presses)
-   - `d'A` to kill bugs on top line, and `.` to repeat command → kill all bugs
+   - /! to jump to the end of the buffer, then `d'A` to kill all the bugs
    - `2/m<Enter>` to get the 'm' set mark command
    - go to the D mark puzzle
 - D mark puzzle (29 key presses)
