@@ -133,12 +133,12 @@ solutions to puzzles in Vim Adventures
 #### Level 11
 - go down to miracle puzzle
 - miracle puzzle (15 key presses)
-   - yank 'you' with `ye`
+   - yank 'you ' with `yw`
    - leave puzzle and re-enter on 'r' of 'rush' → `P  b  ~  3w  yw  j  w  P  rs`
    - grab 'c' change operator
    - go down to change puzzle
 - change puzzle (44 key presses)
-   - start on 'C' of 'Ctrl+1,' → `3CEsc<Esc>  j  CInsert mode<Esc>  G  w  cwreturn to<Esc>  2w  c2wmode<Esc>`
+   - start on 'C' of 'Ctrl+1,' → `3CEsc<Esc>  j  Cinsert mode<Esc>  G  w  cwreturn to<Esc>  2w  c2wmode<Esc>`
    - go down to second change puzzle
 - second change puzzle
    - edit each of the following red boxes, starting on the first letter of each box:
