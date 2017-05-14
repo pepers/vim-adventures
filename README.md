@@ -358,7 +358,7 @@ solutions to puzzles in Vim Adventures
    - `:2<Enter>  5|` to grab 'CTRL-R' redo command
    - go to H mark puzzle
 - H mark puzzle (13 key presses)
-   - `:delm!  :4<Enter>  30|`
+   - `:delm!<Enter> :4<Enter>  30|`
    - `?'` to grab the single quote jump to mark line motion
    - go to the A mark puzzle by using `'A` (that is the single quote, not backtick)
 - A mark puzzle (7 key presses)
@@ -373,7 +373,7 @@ solutions to puzzles in Vim Adventures
       - `:37  68|` to get to the star portal
       - it teleports us to the B mark puzzle
 - B mark puzzle
-   - `mB  16|  mg  :2  mi  14|  mu`
+   - `mB  16|  mg  :2  mi  :14  mu`
    - a chest appears on the x, but we don't have the key yet
    - `:reg<Enter>` and notice the message on the "y register:
       - go to `` `W `` and then go to `` `Y ``, but don't skip the scrolling
