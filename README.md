@@ -41,7 +41,7 @@ solutions to puzzles in Vim Adventures
    - starting on 's' of 'sum', go back through this puzzle, `2G`
    - go left to '.' of next puzzle
 - puzzle left of pink haired girl in bush (4 key presses)
-   - starting on '.', `16b` (probably not the best answer to this puzzle)
+   - starting on '.', `16b` (or alternatively `# Fk`, or `# 4w`)
    - go up to puzzle with a whole lot of numbers (actually just one number, Pi, to a whole lot of decimal places)
 - Pi number puzzle (7 key presses)
    - start on '8', `9G  2f8  4k`, end on broken '5' tile
