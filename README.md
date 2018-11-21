@@ -80,7 +80,7 @@ solutions to puzzles in Vim Adventures
    - paste that 't' using `p` in all the spots that it indicates
    - go left and down to the line delete puzzle below the house
 - line delete puzzle below house (7 key presses)
-   - start on 'd' of 'round', `j  dj  k  P  G  p`
+   - start on 'd' of 'round', `j  dj  k  P  G  P`
    - grab the '"' register specification
    - go up to the house and save the 't' character into another register (such as "a) `"ax`
    - go down, right, and up to the 't and x puzzle' above the 't puzzle'
