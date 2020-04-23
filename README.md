@@ -236,7 +236,7 @@ solutions to puzzles in Vim Adventures
       - ( → `d(` when it is within the previous sentence
       - ) → `d)` when it is within the next sentence
       - * → `d*` when it is anywhere above you
-      - # → `d#` when it is anywhere above you
+      - \# → `d#` when it is anywhere above you
    - get the '[{, [(, ]), and ]}' motions for finding unmatched braces and parenthesis
 - puzzle with t and ^ bugs
    - kill the 2 bugs
