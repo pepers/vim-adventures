@@ -1,6 +1,5 @@
 # vim-adventures
 solutions to puzzles in Vim Adventures
-
 ---
 
 ### Readme
@@ -9,6 +8,7 @@ solutions to puzzles in Vim Adventures
 - I strongly suggest you attempt all levels on your own before turning to the following spoilers.
 
 ---
+![Vim adventures](https://github.com/Mechachleopteryx/vim-adventures/blob/master/Vim%20adventures.png)
 
 ### Levels
 #### Level 8
