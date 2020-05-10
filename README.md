@@ -135,6 +135,7 @@ solutions to puzzles in Vim Adventures
    - a new island appears, follow the path left and up and unlock the 3 gates to the end of the level
 
 #### Level 11
+![How did I get here?](https://github.com/Mechachleopteryx/vim-adventures/blob/master/How%20did%20I%20get%20here.png)
 - go down to miracle puzzle
 - miracle puzzle (15 key presses)
    - yank 'you' with `ye`
