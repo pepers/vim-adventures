@@ -121,7 +121,7 @@ solutions to puzzles in Vim Adventures
    - check `:reg` to see which text you have saved to registers
    - you need the following lines of text saved to registers:
       - 'Betty rules'
-      - 'tweedle beetle'
+      - 'tweetle beetle'
       - 'on the wall'
       - 'One Ring'
    - go back to the previous puzzles and save each to a different register using yank
