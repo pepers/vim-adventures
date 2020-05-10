@@ -219,7 +219,7 @@ solutions to puzzles in Vim Adventures
    - start on first line → `OYou mean<Esc>  j  oall I had<Esc>  G  Oclick my<Esc>`
    - go across the bridge to arrow island
 - arrow island 
-   - start at 'O' of 'Open' → `cw:e<Esc>  w  cWundeground<Esc>`
+   - start at 'O' of 'Open' → `cw:e<Esc>  w  cWunderground<Esc>`
    - grab the red key
    - type `:e underground`
    - open red gate, go down to underground puzzle
