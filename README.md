@@ -91,13 +91,13 @@ solutions to puzzles in Vim Adventures
    - start and red boxed 'x'
    - `"x  gg  $  "ap` (the `"ap` pastes from the "a register, if that is where you saved 't' to)
    - a key has appeared, `3j  2Fl` to get it
-   - go down, right, and down to the 'tweedle beetle puzzle'
-- tweedle beetle puzzle (98 key presses)
+   - go down, right, and down to the 'tweetle beetle puzzle'
+- tweetle beetle puzzle (98 key presses)
    - start on 3rd 'e' of 'beetles' → `3j 2b "adw "bdw  b  "Bdt (space) j "Adw "Adw k "aP j "bP`
    - a small brown key appears, grab it
    - go back to the house at the beginning and use the small brown key on the chest
    - the chest gives you the 'y' yank operator
-   - go back to the 'tweedle beetle puzzle' and head down to the 'one ring puzzle'
+   - go back to the 'tweetle beetle puzzle' and head down to the 'one ring puzzle'
 - one ring puzzle
    - go to start of 'One ring to ' → `3yw` to yank the text
    - paste where the two purple bubbles tell you to, using 'p' or 'P'
@@ -127,7 +127,7 @@ solutions to puzzles in Vim Adventures
    - go back to the previous puzzles and save each to a different register using yank
       - I saved each, in order, from registers a-d, starting on the first character of each phrase:
          - 'Betty rules' → `"ayw` for 'Betty ' + `"Aye` for 'rule' + `"Ay$` for 's' (on the last 's' of 'darkness', because it was the last character on the line)
-         - 'tweedle beetle' → `"b2ye` for 'tweedle beetle'
+         - 'tweetle beetle' → `"b2ye` for 'tweetle beetle'
          - 'on the wall' → `"c3ye` for 'on the wall'
          - 'One Ring' → `"d2ye` for 'One Ring'
    - go back to this puzzle and past the phrases in the right spot, using the right registers
