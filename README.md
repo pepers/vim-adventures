@@ -80,6 +80,7 @@ solutions to puzzles in Vim Adventures
    - paste that 't' using `p` in all the spots that it indicates
    - go left and down to the line delete puzzle below the house
 - line delete puzzle below house (7 key presses)
+![The wheels on the bus.](https://github.com/Mechachleopteryx/vim-adventures/blob/master/the%20wheels%20on%20the%20bus.png)
    - start on 'd' of 'round', `j  dj  k  P  G  P`
    - grab the '"' register specification
    - go up to the house and save the 't' character into another register (such as "a) `"ax`
