@@ -81,7 +81,7 @@ solutions to puzzles in Vim Adventures
    - paste that 't' using `p` in all the spots that it indicates
    - `l 2""p 2e p 2e pte te 2p`
    - go left and down to the line delete puzzle below the house
-- line delete puzzle below house (7 key presses)
+- line delete puzzle below the house (7 key presses)
 ![The wheels on the bus.](https://github.com/Mechachleopteryx/vim-adventures/blob/master/the%20wheels%20on%20the%20bus.png)
    - start on 'd' of 'round', `j  dj  k  P  G  P`
    - grab the '"' register specification
@@ -93,7 +93,7 @@ solutions to puzzles in Vim Adventures
    - a key has appeared, `3j  2Fl` to get it
    - go down, right, and down to the 'tweedle beetle puzzle'
 - tweedle beetle puzzle (98 key presses)
-   - start on 3rd 'e' of 'beetles' → `G  3j  b  "bdw  b  "adw  b  "Bde  j  "Adw  "Ade  k  "aP  G  "bP`
+   - start on 3rd 'e' of 'beetles' → `3j 2b "adw "bdw  b  "Bdt (space) j "Adw "Adw k "aP j "bP`
    - a small brown key appears, grab it
    - go back to the house at the beginning and use the small brown key on the chest
    - the chest gives you the 'y' yank operator
