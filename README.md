@@ -110,6 +110,7 @@ solutions to puzzles in Vim Adventures
    - key appears, grab it (you now have 3)
    - go all the way back to the house at the beginning, and go down to the 'Delete me! puzzle'
 - Delete me! puzzle (7 key presses)
+![Delete me!.](https://github.com/Mechachleopteryx/vim-adventures/blob/master/delete%20me.png)
    - start on 't' of 'Delete' → `G  dd  dd  dd`
    - go down to '99 bottles puzzle'
 - 99 bottles puzzle (15 key presses)
