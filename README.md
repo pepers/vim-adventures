@@ -130,7 +130,7 @@ solutions to puzzles in Vim Adventures
          - 'tweetle beetle' → `"b2ye` for 'tweetle beetle'
          - 'on the wall' → `"c3ye` for 'on the wall'
          - 'One Ring' → `"d2ye` for 'One Ring'
-   - go back to this puzzle and past the phrases in the right spot, using the right registers
+   - go back to this puzzle and pass the phrases in the right spot, using the appropriate registers
       - for me, starting on the first space → `"aP  6l  "bP  l  "cp  $  "dp`
    - a new island appears, follow the path left and up and unlock the 3 gates to the end of the level
 
