@@ -93,7 +93,7 @@ solutions to puzzles in Vim Adventures
    - a key has appeared, `3j  2Fl` to get it
    - go down, right, and down to the 'tweetle beetle puzzle'
 - tweetle beetle puzzle (98 key presses)
-   - start on 3rd 'e' of 'beetles' → `3j 2b "adw "bdw  b  "Bdt (space) j "Adw "Adw k "aP j "bP`
+   - start on 3rd 'e' of 'beetles' → `3j 2b "adw "bdw  b  "Bdt<space> j "Adw "Adw k "aP j "bP`
    - a small brown key appears, grab it
    - go back to the house at the beginning and use the small brown key on the chest
    - the chest gives you the 'y' yank operator
