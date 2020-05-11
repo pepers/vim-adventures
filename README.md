@@ -245,7 +245,7 @@ solutions to puzzles in Vim Adventures
    - get the '[{, [(, ]), and ]}' motions for finding unmatched braces and parenthesis
 - puzzle with t and ^ bugs
    - kill the 2 bugs
-      - t → `dt!` when it is to the right of you on the bottom line of it's puzzle
+      - t → `dt!` when it is to the right of you on the bottom line of its puzzle
       - ^ → `d^` when it is to the left of you on same line
    - get '{ }' motions for navigating paragraphs
 - puzzle with {, }, T, F, and $ bugs
