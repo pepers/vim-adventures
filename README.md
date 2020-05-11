@@ -252,7 +252,7 @@ solutions to puzzles in Vim Adventures
    - kill the 5 bugs
       - } → `d}` when it is forward within the same paragraph as you, you move to end of paragraph
       - { → `d{` when it is backward within the same paragraph as you
-      - T → `dTT` when you are on the top line of it's puzzle, and it is to your left
+      - T → `dTT` when you are on the top line of its puzzle, and it is to your left
       - F → get to right side of puzzle, and `dF<character bug is on>`
       - $ → `d$` when it is to the right of the cursor, on the same line
    - get small brown key
@@ -292,7 +292,7 @@ solutions to puzzles in Vim Adventures
    - kill bugs:
       - a → from top `d3ap` will delete the bug because it is within the next three paragraphs
       - ) → from top `d4)`
-      - i( → `G` to get to the bottom, then `4k` to get within the '( )' pair, then `di(`
+      - i( → `G` to get to the bottom, then `4k` to g et within the '( )' pair, then `di(`
       - % → `d%`
    - go back to top with `gg`, time to edit
    - `W  2j  ci<head<Esc>  j  c2a[<script><Esc>  4j  ci{<Space><Space>alert('Hello World!');<Esc>`
