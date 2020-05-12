@@ -363,7 +363,7 @@ solutions to puzzles in Vim Adventures
    - `:2<Enter>  5|` to grab 'CTRL-R' redo command
    - go to H mark puzzle
 - H mark puzzle (13 key presses)
-   - `:delm!  :4<Enter>  30|`
+   - `:delm!<Enter>  :4<Enter>  30|`
    - `?'` to grab the single quote jump to mark line motion
    - go to the A mark puzzle by using `'A` (that is the single quote, not backtick)
 - A mark puzzle (7 key presses)
