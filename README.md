@@ -1,6 +1,5 @@
 # vim-adventures
 solutions to puzzles in Vim Adventures
-
 ---
 
 ### Readme
@@ -9,6 +8,7 @@ solutions to puzzles in Vim Adventures
 - I strongly suggest you attempt all levels on your own before turning to the following spoilers.
 
 ---
+![Vim adventures](https://github.com/Mechachleopteryx/vim-adventures/blob/master/Vim%20adventures.png)
 
 ### Levels
 #### Level 8
@@ -77,10 +77,13 @@ solutions to puzzles in Vim Adventures
    - go down and open locked gate
    - go to the right
 - t puzzle
+   - "Betty bought a bit of butter"
    - paste that 't' using `p` in all the spots that it indicates
+   - `l 2""p 2e p 2e pte te 2p`
    - go left and down to the line delete puzzle below the house
-- line delete puzzle below house (7 key presses)
-   - start on 'd' of 'round', `j  dj  k  P  G  p`
+- line delete puzzle below the house (7 key presses)
+![The wheels on the bus.](https://github.com/Mechachleopteryx/vim-adventures/blob/master/the%20wheels%20on%20the%20bus.png)
+   - start on 'd' of 'round', `j  dj  k  P  G  P`
    - grab the '"' register specification
    - go up to the house and save the 't' character into another register (such as "a) `"ax`
    - go down, right, and up to the 't and x puzzle' above the 't puzzle'
@@ -88,13 +91,13 @@ solutions to puzzles in Vim Adventures
    - start and red boxed 'x'
    - `"x  gg  $  "ap` (the `"ap` pastes from the "a register, if that is where you saved 't' to)
    - a key has appeared, `3j  2Fl` to get it
-   - go down, right, and down to the 'tweedle beetle puzzle'
-- tweedle beetle puzzle (98 key presses)
-   - start on 3rd 'e' of 'beetles' → `G  3j  b  "bdw  b  "adw  b  "Bde  j  "Adw  "Ade  k  "aP  G  "bP`
+   - go down, right, and down to the 'tweetle beetle puzzle'
+- tweetle beetle puzzle (98 key presses)
+   - start on 3rd 'e' of 'beetles' → `3j 2b "adw "bdw  b  "Bdt<space> j "Adw "Adw k "aP j "bP`
    - a small brown key appears, grab it
    - go back to the house at the beginning and use the small brown key on the chest
    - the chest gives you the 'y' yank operator
-   - go back to the 'tweedle beetle puzzle' and head down to the 'one ring puzzle'
+   - go back to the 'tweetle beetle puzzle' and head down to the 'one ring puzzle'
 - one ring puzzle
    - go to start of 'One ring to ' → `3yw` to yank the text
    - paste where the two purple bubbles tell you to, using 'p' or 'P'
@@ -107,6 +110,7 @@ solutions to puzzles in Vim Adventures
    - key appears, grab it (you now have 3)
    - go all the way back to the house at the beginning, and go down to the 'Delete me! puzzle'
 - Delete me! puzzle (7 key presses)
+![Delete me!.](https://github.com/Mechachleopteryx/vim-adventures/blob/master/delete%20me.png)
    - start on 't' of 'Delete' → `G  dd  dd  dd`
    - go down to '99 bottles puzzle'
 - 99 bottles puzzle (15 key presses)
@@ -117,28 +121,29 @@ solutions to puzzles in Vim Adventures
    - check `:reg` to see which text you have saved to registers
    - you need the following lines of text saved to registers:
       - 'Betty rules'
-      - 'tweedle beetle'
+      - 'tweetle beetle'
       - 'on the wall'
       - 'One Ring'
    - go back to the previous puzzles and save each to a different register using yank
       - I saved each, in order, from registers a-d, starting on the first character of each phrase:
          - 'Betty rules' → `"ayw` for 'Betty ' + `"Aye` for 'rule' + `"Ay$` for 's' (on the last 's' of 'darkness', because it was the last character on the line)
-         - 'tweedle beetle' → `"b2ye` for 'tweedle beetle'
+         - 'tweetle beetle' → `"b2ye` for 'tweetle beetle'
          - 'on the wall' → `"c3ye` for 'on the wall'
          - 'One Ring' → `"d2ye` for 'One Ring'
-   - go back to this puzzle and past the phrases in the right spot, using the right registers
+   - go back to this puzzle and pass the phrases in the right spot, using the appropriate registers
       - for me, starting on the first space → `"aP  6l  "bP  l  "cp  $  "dp`
    - a new island appears, follow the path left and up and unlock the 3 gates to the end of the level
 
 #### Level 11
+![How did I get here?](https://github.com/Mechachleopteryx/vim-adventures/blob/master/How%20did%20I%20get%20here.png)
 - go down to miracle puzzle
 - miracle puzzle (15 key presses)
-   - yank 'you' with `ye`
+   - yank 'you ' with `yw`
    - leave puzzle and re-enter on 'r' of 'rush' → `P  b  ~  3w  yw  j  w  P  rs`
    - grab 'c' change operator
    - go down to change puzzle
 - change puzzle (44 key presses)
-   - start on 'C' of 'Ctrl+1,' → `3CEsc<Esc>  j  CInsert mode<Esc>  G  w  cwreturn to<Esc>  2w  c2wmode<Esc>`
+   - start on 'C' of 'Ctrl+1,' → `3CEsc<Esc>  j  Cinsert mode<Esc>  G  w  cwreturn to<Esc>  2w  c2wmode<Esc>`
    - go down to second change puzzle
 - second change puzzle
    - edit each of the following red boxes, starting on the first letter of each box:
@@ -214,7 +219,7 @@ solutions to puzzles in Vim Adventures
    - start on first line → `OYou mean<Esc>  j  oall I had<Esc>  G  Oclick my<Esc>`
    - go across the bridge to arrow island
 - arrow island 
-   - start at 'O' of 'Open' → `cw:e<Esc>  w  cWundeground<Esc>`
+   - start at 'O' of 'Open' → `cw:e<Esc>  w  cWunderground<Esc>`
    - grab the red key
    - type `:e underground`
    - open red gate, go down to underground puzzle
@@ -235,19 +240,19 @@ solutions to puzzles in Vim Adventures
       - G → `dG` when it is anywhere below you
       - ( → `d(` when it is within the previous sentence
       - ) → `d)` when it is within the next sentence
-      - * → `d*` when it is anywhere above you
-      - # → `d#` when it is anywhere above you
+      - `*` → `d*` when it is anywhere above you
+      - `#` → `d#` when it is anywhere above you
    - get the '[{, [(, ]), and ]}' motions for finding unmatched braces and parenthesis
 - puzzle with t and ^ bugs
    - kill the 2 bugs
-      - t → `dt!` when it is to the right of you on the bottom line of it's puzzle
+      - t → `dt!` when it is to the right of you on the bottom line of its puzzle
       - ^ → `d^` when it is to the left of you on same line
    - get '{ }' motions for navigating paragraphs
 - puzzle with {, }, T, F, and $ bugs
    - kill the 5 bugs
       - } → `d}` when it is forward within the same paragraph as you, you move to end of paragraph
       - { → `d{` when it is backward within the same paragraph as you
-      - T → `dTT` when you are on the top line of it's puzzle, and it is to your left
+      - T → `dTT` when you are on the top line of its puzzle, and it is to your left
       - F → get to right side of puzzle, and `dF<character bug is on>`
       - $ → `d$` when it is to the right of the cursor, on the same line
    - get small brown key
@@ -287,7 +292,7 @@ solutions to puzzles in Vim Adventures
    - kill bugs:
       - a → from top `d3ap` will delete the bug because it is within the next three paragraphs
       - ) → from top `d4)`
-      - i( → `G` to get to the bottom, then `4k` to get within the '( )' pair, then `di(`
+      - i( → `G` to get to the bottom, then `4k` to g et within the '( )' pair, then `di(`
       - % → `d%`
    - go back to top with `gg`, time to edit
    - `W  2j  ci<head<Esc>  j  c2a[<script><Esc>  4j  ci{<Space><Space>alert('Hello World!');<Esc>`
@@ -358,7 +363,7 @@ solutions to puzzles in Vim Adventures
    - `:2<Enter>  5|` to grab 'CTRL-R' redo command
    - go to H mark puzzle
 - H mark puzzle (13 key presses)
-   - `:delm!  :4<Enter>  30|`
+   - `:delm!<Enter>  :4<Enter>  30|`
    - `?'` to grab the single quote jump to mark line motion
    - go to the A mark puzzle by using `'A` (that is the single quote, not backtick)
 - A mark puzzle (7 key presses)
@@ -373,7 +378,7 @@ solutions to puzzles in Vim Adventures
       - `:37  68|` to get to the star portal
       - it teleports us to the B mark puzzle
 - B mark puzzle
-   - `mB  16|  mg  :2  mi  14|  mu`
+   - `mB  16|  mg  :2  mi  :14  mu`
    - a chest appears on the x, but we don't have the key yet
    - `:reg<Enter>` and notice the message on the "y register:
       - go to `` `W `` and then go to `` `Y ``, but don't skip the scrolling
