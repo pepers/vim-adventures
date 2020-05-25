@@ -85,8 +85,9 @@ solutions to puzzles in Vim Adventures
    - go up to the house and save the 't' character into another register (such as "a) `"ax`
    - go down, right, and up to the 't and x puzzle' above the 't puzzle'
 - t and x puzzle (7 key presses)
+   - go up to the house and save the 't' character using `x`
    - start and red boxed 'x'
-   - `"x  gg  $  "ap` (the `"ap` pastes from the "a register, if that is where you saved 't' to)
+   - `"_x  gg  $  "ap` (the `"_x` deletes the character without saving it to a register; the `"ap` pastes from the "a register, if that is where you saved 't' to)
    - a key has appeared, `3j  2Fl` to get it
    - go down, right, and down to the 'tweedle beetle puzzle'
 - tweedle beetle puzzle (98 key presses)
