@@ -11,6 +11,11 @@ solutions to puzzles in Vim Adventures
 ![Vim adventures](https://github.com/Mechachleopteryx/vim-adventures/blob/master/Vim%20adventures.png)
 
 ### Levels
+
+#### Level 5
+- the second key
+   - stand on the line above the 'x' and type `d j`.
+
 #### Level 8
 - last puzzle: 
    - start on first twin brother, `j  #  E  #  n  n  ^  k  $  *  j  j`, end on second brother
