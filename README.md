@@ -14,7 +14,7 @@ solutions to puzzles in Vim Adventures
 
 #### Level 5
 - the second key
-   - stand on the line above the 'x' and type `d j`.
+   - stand on the line above the 'x' and type `d j`. (hint: 'dwon' is not a spelling mistake.)
 
 #### Level 8
 - last puzzle: 
