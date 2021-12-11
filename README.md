@@ -35,7 +35,7 @@ solutions to puzzles in Vim Adventures
    `x` to delete the character.
    `e`nd, `e`nd to the end of "my".
    `j`ump to the next line.
-   `r`epleace the "Y" with an `I` (Capital I).
+   `r`eplace the "Y" with an `I` (Capital I).
    `j`ump, `b`ack word, `b`ack word, `D`elete the rest of the line.
    
    (Answer found at https://gaming.stackexchange.com/questions/196448/how-to-pass-level-6-function-doinigo-in-vim-adventures .)
