@@ -29,14 +29,14 @@ solutions to puzzles in Vim Adventures
    but instead the game just says ""the deleted range should be linewise". What the heck does that mean?
  
  - `l`eap right off of the path. To the `E`nd of the word. `l`eap onto the space. `D`elete to the end of the line.
-   `j`ump, `j`ump, `j`ump down to just behind the "Mrs. " `d`elete `B`ackwards.
-   `j`ump to the next line. `dd` to delete the whole line.
-   `w`ord, `w`ord to the "s" in "skilled".
-   `x` to delete the character.
-   `e`nd, `e`nd to the end of "my".
-   `j`ump to the next line.
-   `r`eplace the "Y" with an `I` (Capital I).
-   `j`ump, `b`ack word, `b`ack word, `D`elete the rest of the line.
+ - `j`ump, `j`ump, `j`ump down to just behind the "Mrs. " `d`elete `B`ackwards.
+ - `j`ump to the next line. `dd` to delete the whole line.
+ - `w`ord, `w`ord to the "s" in "skilled".
+ - `x` to delete the character.
+ - `e`nd, `e`nd to the end of "my".
+ - `j`ump to the next line.
+ - `r`eplace the "Y" with an `I` (Capital I).
+ - `j`ump, `b`ack word, `b`ack word, `D`elete the rest of the line.
    
    (Answer found at https://gaming.stackexchange.com/questions/196448/how-to-pass-level-6-function-doinigo-in-vim-adventures .)
 
