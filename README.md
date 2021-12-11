@@ -16,6 +16,12 @@ solutions to puzzles in Vim Adventures
 - the second key
    - stand on the line above the 'x' and type `d j`. (hint: 'dwon' is not a spelling mistake.)
 
+#### Level 6
+ - learned this the hard way
+   - rush past the first puzzle to reset the available keystrokes.
+   - "k"limb onto the back of back, big WORD End, big WORD End, beginning of the next "w"ord, "k"limb up, 
+   - back up to the "b"eginning, then "d"elete a "w"ord.
+
 #### Level 8
 - last puzzle: 
    - start on first twin brother, `j  #  E  #  n  n  ^  k  $  *  j  j`, end on second brother
