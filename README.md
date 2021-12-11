@@ -21,6 +21,13 @@ solutions to puzzles in Vim Adventures
    - rush past the first puzzle to reset the available keystrokes.
    - "k"limb onto the back of back, big WORD End, big WORD End, beginning of the next "w"ord, "k"limb up, 
    - back up to the "b"eginning, then "d"elete a "w"ord.
+ - begin at the beginning. Seen on Facebook:
+      "You need to solve the "~ is where the heart is" before trying the "Begin at the beginning".
+      Start with the h, change it to H, jump to the end of the word, fix it, go one line down
+      and continue from there."
+ - I have no idea why the D button doesn't work the way I expect it to, 
+   but instead the game just says ""the deleted range should be linewise". What the heck does that mean?
+
 
 #### Level 8
 - last puzzle: 
