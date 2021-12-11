@@ -19,15 +19,26 @@ solutions to puzzles in Vim Adventures
 #### Level 6
  - learned this the hard way
    - rush past the first puzzle to reset the available keystrokes.
-   - "k"limb onto the back of back, big WORD End, big WORD End, beginning of the next "w"ord, "k"limb up, 
-   - back up to the "b"eginning, then "d"elete a "w"ord.
+   - `k`limb onto the back of back, big WORD End, big WORD End, beginning of the next `w`ord, `k`limb up, 
+   - back up to the `b`eginning, then `d`elete a `w`ord.
  - begin at the beginning. Seen on Facebook:
       "You need to solve the "~ is where the heart is" before trying the "Begin at the beginning".
       Start with the h, change it to H, jump to the end of the word, fix it, go one line down
       and continue from there."
  - I have no idea why the D button doesn't work the way I expect it to, 
    but instead the game just says ""the deleted range should be linewise". What the heck does that mean?
-
+ 
+ - `l`eap right off of the path. To the `E`nd of the word. `l`eap onto the space. `D`elete to the end of the line.
+   `j`ump, `j`ump, `j`ump down to just behind the "Mrs. " `d`elete `B`ackwards.
+   `j`ump to the next line. `dd` to delete the whole line.
+   `w`ord, `w`ord to the "s" in "skilled".
+   `x` to delete the character.
+   `e`nd, `e`nd to the end of "my".
+   `j`ump to the next line.
+   `r`epleace the "Y" with an `I` (Capital I).
+   `j`ump, `b`ack word, `b`ack word, `D`elete the rest of the line.
+   
+   (Answer found at https://gaming.stackexchange.com/questions/196448/how-to-pass-level-6-function-doinigo-in-vim-adventures .)
 
 #### Level 8
 - last puzzle: 
