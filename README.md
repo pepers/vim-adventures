@@ -3,7 +3,7 @@ solutions to puzzles in Vim Adventures
 ---
 
 ### Readme
-[Vim Adventures](http://vim-adventures.com/) is an excellent educational game by Doron Linder.  It focuses on teaching many popular commands and motions used in the [Vim](http://www.vim.org/) text editor.  Here are a few disclaimers: 
+[Vim Adventures](http://vim-adventures.com/) is a game by Doron Linder.  It focuses on teaching many popular commands and motions used in the [Vim](http://www.vim.org/) text editor.  Here are a few disclaimers: 
 - My solutions may not be the only way, and may not even be the optimal way to solve the puzzles.
 - I strongly suggest you attempt all levels on your own before turning to the following spoilers.
 
